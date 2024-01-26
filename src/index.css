@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.dice-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dice {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav-bar {
+  position: absolute;
+  top: 0;
+  display: flex;
+  height: 100px;
+  width: 100%;
+  background-color: black;
+}
+
+.pin {
+  position: absolute;
+  left: 50%;
+  width: 10px;
+  height: 20px;
+  background-color: pink;
+}
