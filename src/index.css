@@ -31,4 +31,6 @@ code {
   background-repeat: no-repeat;
   background-position: center 0;
   background-color: #8c4e03;
+  display: flex;
+  justify-content: center;
 }

@@ -1,5 +1,7 @@
 import Plinko from "./Plinko";
 import React from "react";
+import '../Login.css'
+import Curtain from "./Curtain";
 
 function Login() {
   const [username, setUsername] = React.useState("");

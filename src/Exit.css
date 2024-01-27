@@ -1,0 +1,43 @@
+
+.left-curtain-exit {
+    position: absolute;
+    width: 50%;
+    left: 0;
+    height: 100vh;
+    z-index: 100;
+    top: 0;
+    background-size: cover;
+    animation-name: left-curtain-close;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.right-curtain-exit {
+    position: absolute;
+    width: 50%;
+    right: 0;
+    height: 100vh;
+    z-index: 100;
+    top: 0;
+    background-size: cover;
+    animation-name: right-curtain-close;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.exit-container {
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@keyframes left-curtain-close {
+    0% {left:-50vw;}
+    100%   {left:0px;}
+}
+
+@keyframes right-curtain-close {
+    0% {right:-50vw;}
+    100%   {right:0px;}
+}

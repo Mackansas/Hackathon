@@ -1,6 +1,5 @@
 import '../Curtain.css'
 import React from 'react';
-import Login from './Login';
 
 function Curtain() {
     const leftCurtainRef = React.useRef(null);
@@ -23,9 +22,6 @@ function Curtain() {
             <div style={{ backgroundImage: "url(/left-curtain.webp)" }} className="left-curtain" ref={leftCurtainRef}></div>
             <div style={{ backgroundImage: "url(/right-curtain.webp)" }} className="right-curtain" ref={rightCurtainRef}></div>
             <div style={{ backgroundImage: "url(/rope.webp)" }} className="rope" onClick={openCurtain} ref={ropeRef}></div>
-            <div className='curtain-content'>
-                <Login />
-            </div>
         </div>
     )
 }

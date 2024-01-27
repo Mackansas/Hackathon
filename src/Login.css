@@ -1,0 +1,69 @@
+
+.plinko-container {
+    z-index: 10;
+    padding: 2px;
+    scale: .8;
+}
+
+.res-string {
+    color: white;
+}
+
+.plinko-characters {
+    display: flex;
+    justify-content: center;
+    margin-left: -20px;
+    margin-top: -24px;
+}
+
+.plinko-character {
+    width: 20px;
+    height: 20px;
+    color: #aaaaaa;
+    outline: 1px solid #959698;
+    outline-offset: -1px;
+}
+
+.logout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6ebcb99;
+    height: 100%;
+    width: 100vw;
+}
+
+.login{
+    display: flex;
+    background-color: #f6ebcb99;
+    height: 100%;
+}
+
+.login-fields {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    align-items: center;
+    font-size: larger;
+    padding-top: 100px;
+}
+
+.login-field {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-bottom: 5px;
+}
+
+.plinko-container > button, .logout > button {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.info {
+    font-size: small;
+    color: red;
+}
