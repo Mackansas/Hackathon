@@ -15,7 +15,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Welcome />} />
           <Route path="/welcome" element={<Welcome />} />
-          <Route path="/home" element={<Login />} />
           <Route path="/plinko" element={<Login />} />
           <Route path="/dice" element={<Dice amount={5} />} />
           <Route path="/cointoss" element={<CoinToss />} />
