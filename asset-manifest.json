@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Hackathon/static/css/main.8dc1018e.css",
-    "main.js": "/Hackathon/static/js/main.babcc67b.js",
-    "index.html": "/Hackathon/index.html",
-    "main.8dc1018e.css.map": "/Hackathon/static/css/main.8dc1018e.css.map",
-    "main.babcc67b.js.map": "/Hackathon/static/js/main.babcc67b.js.map"
+    "main.css": "/static/css/main.8dc1018e.css",
+    "main.js": "/static/js/main.babcc67b.js",
+    "index.html": "/index.html",
+    "main.8dc1018e.css.map": "/static/css/main.8dc1018e.css.map",
+    "main.babcc67b.js.map": "/static/js/main.babcc67b.js.map"
   },
   "entrypoints": [
     "static/css/main.8dc1018e.css",
