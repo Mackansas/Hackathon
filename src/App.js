@@ -1,22 +1,22 @@
-import './App.css';
-import Dice from './components/Dice';
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+import "./App.css";
+import Dice from "./components/Dice";
+import { Route, Routes } from "react-router-dom";
+import Curtain from "./components/Curtain";
+import NavBar from "./components/NavBar";
 
 function App() {
-
-  const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <div>Hello world!</div>,
-    },
-  ]);
-
   return (
     <div className="App">
-        <Dice amount={5} />
+      {/* <CoinToss /> */}
+      <NavBar />
+      <div className="content" style={{ backgroundImage: "url(/uncle-sam.webp)"}}>
+        <Routes>
+          <Route path="/" element={<Curtain />} />
+          <Route path="/home" element={<Curtain />} />
+          <Route path="/dice" element={<Dice amount={5} />} />
+          <Route path="/cointoss" element={<Dice />} />
+        </Routes>
+      </div>
     </div>
   );
 }
