@@ -23,9 +23,9 @@
     position: absolute;
     right: 10vw;
     top: -20vh;
-    width: 96px;
     background-size: cover;
-    height: 1000px;
+    height: 100vh;
+    aspect-ratio: 241 / 2319;
     z-index: 200;
     cursor: pointer;
 }
