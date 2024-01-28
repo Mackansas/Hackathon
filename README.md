@@ -1,4 +1,4 @@
-Välkommen till Unisac Sinep!
+Välkommen till Unisac!
 
 För att börja spela går du in på hemsidan. Spelet kan spelas solo men rekommenderas att spelas som minst 2. Målet går ut på att i “plinko” skriva in sitt användarnamn och lösenord med plinko. Dessa två bestäms av gruppen i förväg.
 
